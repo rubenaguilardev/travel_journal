@@ -9,13 +9,15 @@ body {
   padding: 0;
   width: 550px;
   font-family: 'Inter', sans-serif;
-  color: #FFF;
+  color: #2B283A;
+  background-color: rgb(226, 224, 221);
 }
 
 /* Header styles */
 
 header {
   background: #F55A5A;
+  color: #FFF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,3 +27,74 @@ header {
   font-weight: 500;
   letter-spacing: -1.1px;
 }
+
+
+/* Entry styles */
+
+section {
+  display: flex;
+  padding: 45px 40px 18px;
+  background: #FFF;
+  border-bottom: 1px solid #F5F5F5;
+
+}
+
+.image {
+  height: 168px;
+  width: 125px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.image img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.entry-right {
+  display: flex;
+  flex-direction: column;
+  margin: 18px 0 0 20px;
+}
+
+.entry-right img {
+  width: 7px;
+  height: 9.55px;
+  margin-right: 4px;
+}
+
+.entry-right span {
+  font-size: .64rem;
+}
+
+.country {
+  margin-right: 12px;
+  letter-spacing: 1.7px;
+}
+
+.google-link {
+  color: #918E9B;
+  font-size: .64rem
+
+}
+
+h2 {
+  margin: 4px 0 17px 0;
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+
+.dates {
+  font-weight: 700;
+}
+
+.entry-right p {
+  font-size: .64rem;
+  line-height: 150%;
+}
+
+
+
+
+
