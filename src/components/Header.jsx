@@ -1,7 +1,9 @@
+import logo from '../assets/Globe.png'
+
 export default function Header() {
     return (
         <header>
-            <img src='./src/assets/Globe.png' alt='globe icon'/>
+            <img src={logo} alt='globe icon'/>
             <span>my travel journal.</span>
         </header>
     )

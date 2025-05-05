@@ -1,3 +1,5 @@
+import location from '../assets/fill.png'
+
 export default function Entry(props) {
     console.log(props)
     return (
@@ -7,7 +9,7 @@ export default function Entry(props) {
             </div>
             <div className='entry-right'>
                 <div className='top'>
-                    <img src='../src/assets/fill.png' alt='location icon'/>
+                    <img src={location} alt='location icon'/>
                     <span className='country'>{props.country}</span>
                     
                     <a className='google-link' href={props.googleMapsLink}>
