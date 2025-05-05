@@ -7,7 +7,7 @@ export default function Entry(props) {
             </div>
             <div className='entry-right'>
                 <div className='top'>
-                    <img src='../assets/fill.png' alt='location icon'/>
+                    <img src='./src/assets/fill.png' alt='location icon'/>
                     <span className='country'>{props.country}</span>
                     
                     <a className='google-link' href={props.googleMapsLink}>
