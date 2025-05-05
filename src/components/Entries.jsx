@@ -2,11 +2,11 @@ export default function Entry(props) {
     return (
         <section>
             <div className='image'>
-                <img src={props.img.src} alt='Japan moutain image'/>
+                <img src={props.img} alt={props.alt}/>
             </div>
             <div className='entry-right'>
                 <div className='top'>
-                    <img src='/src/assets/fill.png' alt={props.img.alt}/>
+                    <img src='/src/assets/fill.png' alt='location icon'/>
                     <span className='country'>{props.country}</span>
                     
                     <a className='google-link' href={props.googleMapsLink}>
