@@ -8,7 +8,7 @@ export default function App() {
     return (
       <Entry
         key={obj.id}
-        obj={obj}
+        {...obj}
       />
     )
   })
